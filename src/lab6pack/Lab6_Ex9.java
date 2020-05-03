@@ -318,7 +318,7 @@ public class Lab6_Ex9 extends JFrame implements ActionListener {
 
 		/*split saves.txt(textfield,operand1,operator,operand2) by comma and assign for Calculator to continue*/
 		String[] recline=br.readLine().split(",",-1);/*split by default removes empty strings ,
-		 											*to avoid this we use the overloaded version by placing -1 as the limit*/
+		 					      *to avoid this we use the overloaded version by placing -1 as the limit*/
 		operand1=recline[1];
 		operator=recline[2];
 		operand2=recline[3];
