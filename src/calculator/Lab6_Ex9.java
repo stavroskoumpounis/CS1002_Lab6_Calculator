@@ -1,4 +1,4 @@
-package lab6pack;
+package calculator;
 
 import java.awt.*;
 import java.awt.event.*;
